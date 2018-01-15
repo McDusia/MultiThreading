@@ -10,7 +10,6 @@ class Consumer implements Runnable
     private PrintersMonitor monitor;
     private int myNr;
 
-
     public Consumer(PrintersMonitor monitor, int n)
     {
         this.monitor = monitor;

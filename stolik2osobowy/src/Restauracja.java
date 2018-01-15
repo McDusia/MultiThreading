@@ -5,13 +5,6 @@ import java.util.ArrayList;
  */
 public class Restauracja {
 
-    /*Printer[] printers;
-    Consumer[] consumers;
-    Thread[] printersThreads = new Thread[10];
-    Thread[] consumerThreads = new Thread[10];
-
-    Klient[]*/
-
     private static ArrayList<Thread> clientsThreads = new ArrayList<>();
 
     private static Kelner monitor = new Kelner();
@@ -37,17 +30,6 @@ public class Restauracja {
                 e.printStackTrace();
             }
         });
-        /*for(int i = 0;i<10;i++) {
-            //d.printersThreads[i].start();
-            d.consumerThreads[i].start();
-        }
-
-
-        for(int i = 0;i<10;i++) {
-            d.printersThreads[i].join();
-            d.consumerThreads[i].join();
-        }*/
-
 
     }
 

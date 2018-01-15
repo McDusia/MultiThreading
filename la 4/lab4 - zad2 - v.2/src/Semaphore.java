@@ -1,3 +1,8 @@
+/**
+ * Created by Madzia on 17.10.2017.
+**/
+
+
 public class Semaphore {
     private boolean busy;
 
@@ -16,8 +21,8 @@ public class Semaphore {
     }
 
     synchronized  public void podnies() {
-       busy = false;
-       notify();
+        busy = false;
+        notify();
     }
 
 }

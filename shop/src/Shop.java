@@ -22,7 +22,6 @@ public class Shop {
         Client[] clients = new Client[15];
 
         for(int i = 0;i<15;i++) {
-
             clients[i] = new Client(shop,sem,i);
         }
 
